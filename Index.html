@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+      <head>
+
+            <script defer src="script/Draw/Draw.js"></script>
+            <script defer src="script/controller.js"></script>
+            <script defer src="script/Tools.js"></script>
+            <link rel="stylesheet" href="arquivo css" type="text/css">
+            <meta charset="UTF-8" />
+            <title>Titulo</title>
+      </head>
+      <body>
+            <canvas id="Tools" width="1024" height="128" onclick="MouseClickTools(event)" style="border: 2px solid red;"></canvas>
+            <canvas id="game" onmousedown="MouseDown(event)" onmousemove= "SetMousePosition(event)" width="1024" height="512" onMouseUp="MouseUp()" style="border: 2px solid red;"></canvas>
+            <p id="cordenadas"></p><p id="cordenadas2"></p>
+      </body>
+</html>
